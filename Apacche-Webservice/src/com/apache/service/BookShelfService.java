@@ -1,9 +1,9 @@
-package com.test.service;
+package com.apache.service;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
-import com.test.model.BookVO;
+import com.apache.model.BookVO;
 
 @WebService
 public interface BookShelfService {

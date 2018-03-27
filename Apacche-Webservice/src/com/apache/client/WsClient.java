@@ -1,9 +1,9 @@
-package com.test.client;
+package com.apache.client;
 
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
 
-import com.test.model.BookVO;
-import com.test.service.BookShelfService;
+import com.apache.model.BookVO;
+import com.apache.service.BookShelfService;
 
 public class WsClient {
 	public static void main(String[] args){

@@ -1,11 +1,11 @@
-package com.test.serviceImpl;
+package com.apache.serviceImpl;
 
 import javax.jws.WebService;
 
-import com.test.model.BookVO;
-import com.test.service.BookShelfService;
+import com.apache.model.BookVO;
+import com.apache.service.BookShelfService;
 
-@WebService(endpointInterface = "com.test.service.BookShelfService",
+@WebService(endpointInterface = "com.apache.service.BookShelfService",
 serviceName="pratima")
 public class BookShelfServiceImpl implements BookShelfService {
 public String insertBook(BookVO bookVO) {
